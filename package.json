@@ -1,0 +1,21 @@
+{
+  "name": "api_caisse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "MAROUEN",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-webhooks": "^1.4.2",
+    "pdf": "^0.1.0",
+    "pdfkit": "^0.14.0",
+    "pg": "^8.11.3",
+    "pg-listen": "^1.7.0",
+    "pkg": "^5.8.1"
+  }
+}
