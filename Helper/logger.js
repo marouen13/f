@@ -5,6 +5,9 @@ const hours = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
 const fullDate = date+' '+hours;
 const separtor = '******************************************************************************************************************'
  
+
+
+
  function log_error(type_log,msg) {  
     fs.appendFile('Logs.txt',separtor+"\n"+ fullDate+"   ["+type_log+"]   "+msg+"\n", function (err) 
     {   
